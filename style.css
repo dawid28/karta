@@ -3,6 +3,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(51,56,74);
+background: linear-gradient(90deg, rgba(51,56,74,1) 27%, rgba(114,32,222,1) 100%);
+flex-direction: column;
 }
 
 .flip-card {
@@ -10,6 +13,7 @@ body {
   width: 400px;
   height: 600px;
   perspective: 1000px;
+  box-shadow: black;
 }
 
 .flip-card-inner {
@@ -63,6 +67,7 @@ p, hr, h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 a {
@@ -72,4 +77,16 @@ a {
 
 .btn:hover {
   background: gold;
+  
+}
+
+.dzieki {
+  display: none;
+}
+
+
+@media only screen and(max-width: 200px) {
+  body{
+    background: pink;
+  }
 }
