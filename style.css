@@ -5,7 +5,7 @@
 }
 
 
-.karta {
+.przod {
     height: 500px;
     width: 400px;
     background: rgb(36,193,30);
@@ -14,12 +14,12 @@ background: linear-gradient(90deg, rgba(36,193,30,1) 27%, rgba(0,194,255,1) 100%
     top: 200px;
     display: flex;
     justify-content: center;
+    transition: 1s;
     
     
     
     
 }
-
 h2 {
     color: white;
 }
@@ -28,6 +28,19 @@ p {
     color: white;
 }
 
-.fab fa-accessible-icon{
-    font-size: 100px;
+.pro {
+    position: absolute;
+    top: 20px;
 }
+
+.przod:hover { 
+    transform:rotateY(180deg);
+  }
+
+
+  .tyl {
+      display: none;
+  }
+
+ 
+  
